@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' , sans-serif;
+
+}
+
+
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    height: 100vh;  /*altura */
+    width: 100vh;  /* Largura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.info{
+    /* background-color: black;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //você pode alterar o altura e largura pra ver se fica mais do sei gosto.
+    width: 300px;
+    height: 300px;
+    */
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8; /* Transparência */
+    width: 95%; /* Largura */
+    max-width: 450px; /* Largura máxima */
+    border-radius: 25px; /* Arredondar borda */
+    padding: 20px;
+   
+}
+
+
+
+.lupa{
+    
+    height: 20px;
+    width: 20px;
+    /* background-color: black;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //você pode alterar o altura e largura pra ver se fica mais do sei gosto.
+    width: 300px;
+    height: 300px;
+    */
+  
+    /*background-color: #7c7c7c2b;
+    opacity: 0.8;
+    max-width: 450px;
+    border-radius: 50%;
+    padding: 15px; */
+
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: #27343b2b;
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+
+}
+
+button:hover {
+    background-color: #7c7c7c;
+    
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+    font-size: 24px;
+
+}
+
+
+.info2 {
+    margin-top: 30px;
+}
+
+.cidade {
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.temp {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 30px;
+
+}
+
