@@ -11,7 +11,7 @@ function cliqueiNoBotao() {
       })
       .then(response => response.json())
       .then(data => {
-          document.querySelector('.cidade').textContent = `Conselho para ${cidade}`;
+          document.querySelector('.cidade').textContent = `Conselho para vida`;
           document.querySelector('.temp').textContent = data[0][0][0];
           mudarBackground();
       })
